@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="./styles/index.css">
 </head>
 <body>
+
+<h1>Top Music Player</h1>
 <div>
     <ul>
         <li onclick="getsong({song:'Luis Fonsi - Despacito',id: 0})">Despacito - Luis Fonsi</li>
@@ -25,6 +27,27 @@
 
     </ul>
 </div>
+<h2>Cancion en Reproduccion: </h2>
+<div id="song">
+
+</div>
+
+<div>
+    <button onclick="prevSong()">Anterior</button>
+    <button onclick="nextSong()">Siguiente</button>
+</div>
+
+<div id="msg">
+
+</div>
+
+<h3> En cola: </h3>
+<div id="cola">
+
+</div>
+
+
+
     <script src="index.js">    
     </script> 
 </body>
